@@ -39,4 +39,6 @@ def storage(function_scoped_container_getter, host):
 
     bbs.create_blob_from_bytes("data", "root/a/file.txt", data)
     bbs.create_blob_from_bytes("data", "root/b/file.txt", data)
+    bbs.create_blob_from_bytes("data", "root/c/file1.txt", data)
+    bbs.create_blob_from_bytes("data", "root/c/file2.txt", data)
     yield bbs
